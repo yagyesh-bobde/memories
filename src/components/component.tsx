@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
+import { User } from "lucide-react";
 
-const songData = [
+export const songData = [
   {
     id: 1,
     name: "Shape of You",
@@ -10,6 +11,40 @@ const songData = [
     likes: 2500000,
     views: 10000000,
     image: "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 2,
@@ -19,6 +54,40 @@ const songData = [
     likes: 2000000,
     views: 8000000,
     image: "https://i.scdn.co/image/ab67616d0000b2738863bc11d2aa12b54f5aeb36",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 3,
@@ -28,6 +97,40 @@ const songData = [
     likes: 1800000,
     views: 7500000,
     image: "https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 4,
@@ -37,6 +140,40 @@ const songData = [
     likes: 3000000,
     views: 12000000,
     image: "https://i.scdn.co/image/ab67616d0000b273365b3fb800c19f7ff72602da",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 5,
@@ -46,6 +183,40 @@ const songData = [
     likes: 2200000,
     views: 9500000,
     image: "https://i.scdn.co/image/ab67616d0000b273ef0d4234e1a645740f77d59c",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 6,
@@ -55,6 +226,40 @@ const songData = [
     likes: 1900000,
     views: 8200000,
     image: "https://i.scdn.co/image/ab67616d0000b273e319baafd16e84f0408af2a0",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 8,
@@ -64,6 +269,40 @@ const songData = [
     likes: 2300000,
     views: 9800000,
     image: "https://i.scdn.co/image/ab67616d0000b273b6d4566db0d12894a1a3b7a2",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
   {
     id: 10,
@@ -73,6 +312,40 @@ const songData = [
     likes: 2600000,
     views: 11000000,
     image: "https://i.scdn.co/image/ab67616d0000b273de437d960dda1ac0a3586d97",
+    memories: [
+      {
+        id: 1,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 2,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 3,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+      {
+        id: 4,
+        title: "Nostalgic College Prom!",
+        userHandle: "lightY",
+        userIcon: <User />,
+        description:
+          "This is lasjldk fjalskdjf lka;js dlkfja;lsk djfl;kajs ldkfjl;a ksjf;lkasjl;dfkj;alskdjf.",
+      },
+    ],
   },
 ];
 
@@ -130,7 +403,7 @@ export function Component() {
             {songData.map((song) => (
               <Link
                 key={song.id}
-                href="#"
+                href={`/song/` + song.id.toString()}
                 className="flex flex-col items-center gap-2 rounded-md p-4 hover:bg-muted"
                 prefetch={false}
               >
@@ -154,22 +427,24 @@ export function Component() {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {songData.map((song) => (
               <Card key={song.id} className="p-4">
-                <div className="flex items-center gap-4">
-                  <img
-                    src={song.image}
-                    width="64"
-                    height="64"
-                    alt={song.name}
-                    className="rounded"
-                    style={{ aspectRatio: "64/64", objectFit: "cover" }}
-                  />
-                  <div>
-                    <div className="text-lg font-medium">{song.name}</div>
-                    <div className="text-sm text-muted-foreground">
-                      {song.artist}
+                <Link href={"/song/" + song.id.toString()}>
+                  <div className="flex items-center gap-4">
+                    <img
+                      src={song.image}
+                      width="64"
+                      height="64"
+                      alt={song.name}
+                      className="rounded"
+                      style={{ aspectRatio: "64/64", objectFit: "cover" }}
+                    />
+                    <div>
+                      <div className="text-lg font-medium">{song.name}</div>
+                      <div className="text-sm text-muted-foreground">
+                        {song.artist}
+                      </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               </Card>
             ))}
           </div>
