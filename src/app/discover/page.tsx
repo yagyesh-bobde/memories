@@ -1,7 +1,9 @@
+"use client"
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { User } from "lucide-react";
-import SideNav from "./SideNav";
+import { useRouter } from "next/navigation";
+
 
 export const songData = [
   {
@@ -350,10 +352,11 @@ export const songData = [
   },
 ];
 
-export function Component() {
+export default function Component() {
+  const router = useRouter();
   return (
     <div className="flex min-h-screen w-full">
-      <SideNav />
+      
       <main className="flex-1 overflow-auto">
         <section className="px-4 py-8 md:px-6 md:py-12">
           <h2 className="mb-4 text-2xl font-bold">Explore Artists</h2>

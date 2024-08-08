@@ -3,10 +3,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import React from "react";
+import { useRouter } from "next/navigation";
+import SideNav from "../SideNav";
 
 export default function HomePage(): JSX.Element {
+  const router = useRouter();
   return (
-    <div className="flex flex-col min-h-dvh">
+    <div className="flex min-h-screen">
+      <SideNav />
+      <div className="flex flex-col min-h-dvh w-full">
       <section className="relative w-full h-[70vh] bg-gradient-to-r from-[#6b46c1] to-[#b794f4]">
         <div className="absolute inset-0 overflow-hidden">
           <video autoPlay loop muted playsInline className="min-w-full min-h-full w-auto h-auto z-0 object-cover">
@@ -20,8 +25,10 @@ export default function HomePage(): JSX.Element {
             music.
           </p>
           <div className="flex gap-4">
-            <Button className="px-6 py-3 text-lg font-medium">
+            <Button className="px-6 py-3 text-lg font-medium"
+            onClick={() => router.push("/discover")}>
               Connect Wallet
+
             </Button>
             <Button variant="secondary" className="px-6 py-3 text-lg font-medium">
               Explore Music
@@ -116,6 +123,7 @@ export default function HomePage(): JSX.Element {
           <div className="text-muted-foreground text-sm">&copy; 2024 Web3 Music. All rights reserved.</div>
         </div>
       </footer>
+    </div>
     </div>
   );
 }
