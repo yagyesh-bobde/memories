@@ -104,7 +104,7 @@ const Page = ({ params }: { params: { id: string } }) => {
           {song.memories.map((memory) => (
             <li
               key={memory.id}
-              className="my-2 flex w-full items-center justify-between rounded-lg border-y p-5 shadow-md duration-300 ease-in-out hover:scale-105"
+              className="my-2 mx-8 flex w-3/4 items-center justify-between rounded-lg border-y p-5 shadow-md duration-300 ease-in-out hover:scale-105"
             >
               <div className="flex items-center gap-4">
                 <div>
